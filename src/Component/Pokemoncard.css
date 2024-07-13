@@ -1,0 +1,25 @@
+.fire-border {
+    padding: 20px;
+    font-size: 24px;
+    border: 5px solid;
+    border-image: linear-gradient(45deg, transparent, red, orange, yellow, transparent) 1;
+    animation: fireAnimation 1.5s infinite;
+}
+
+@keyframes fireAnimation {
+    0% {
+        border-image: linear-gradient(45deg, transparent, red, orange, yellow, transparent) 1;
+    }
+    25% {
+        border-image: linear-gradient(45deg, transparent, yellow, orange, red, transparent) 1;
+    }
+    50% {
+        border-image: linear-gradient(45deg, transparent, orange, red, yellow, transparent) 1;
+    }
+    75% {
+        border-image: linear-gradient(45deg, transparent, red, yellow, orange, transparent) 1;
+    }
+    100% {
+        border-image: linear-gradient(45deg, transparent, red, orange, yellow, transparent) 1;
+    }
+}

@@ -1,0 +1,30 @@
+/* src/index.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  
+ 
+  .had{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    animation: fire 1.5s infinite;
+}
+
+@keyframes had {
+  0% { text-shadow: 0 0 10px #f00, 0 0 20px #f00, 0 0 30px #f00, 0 0 40px #f00, 0 0 50px #f00, 0 0 60px #f00, 0 0 70px #f00; }
+  20% { text-shadow: 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0, 0 0 50px #ff0, 0 0 60px #ff0, 0 0 70px #ff0, 0 0 80px #ff0; }
+  40% { text-shadow: 0 0 30px #ff9900, 0 0 40px #ff9900, 0 0 50px #ff9900, 0 0 60px #ff9900, 0 0 70px #ff9900, 0 0 80px #ff9900, 0 0 90px #ff9900; }
+  60% { text-shadow: 0 0 40px #ff0, 0 0 50px #ff0, 0 0 60px #ff0, 0 0 70px #ff0, 0 0 80px #ff0, 0 0 90px #ff0, 0 0 100px #ff0; }
+  80% { text-shadow: 0 0 50px #f00, 0 0 60px #f00, 0 0 70px #f00, 0 0 80px #f00, 0 0 90px #f00, 0 0 100px #f00, 0 0 110px #f00; }
+  100% { text-shadow: 0 0 60px #ff0, 0 0 70px #ff0, 0 0 80px #ff0, 0 0 90px #ff0, 0 0 100px #ff0, 0 0 110px #ff0, 0 0 120px #ff0; }
+}
